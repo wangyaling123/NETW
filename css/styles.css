@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300&family=Odibee+Sans&display=swap');
+
+
+h1{
+    color: rgb(224, 165, 248);
+    font-size: 3rem;
+}
+h2{
+    color: rgb(204, 204, 204);
+    font-size: 2rem;
+}
+
+.item {
+    border: 1px solid #aaa;
+    padding: 1rem;
+  }
+  
+  .selected {
+    background-color: #aaa;
+  }
+
+.main-menu div:hover{
+      color: chartreuse;
+      cursor: pointer;
+  }
+
+.container{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    
+ }
